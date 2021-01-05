@@ -76,15 +76,15 @@ class Checkout extends React.Component{
               <div id='checkoutboxes'>
               <div>
               <input type='checkbox'></input>
-              <label>I have reviewed my order.</label>
+              <label className='checkboxlabel'>I have reviewed my order.</label>
               </div>
               <div>
               <input type='checkbox'></input>
-              <label>I have read the <a>terms and conditions</a>.</label>
+              <label className='checkboxlabel'>I have read the <a>terms and conditions</a>.</label>
               </div>
               <div>
               <input type='checkbox'></input>
-              <label>I would like to subscribe to the newsletter.</label>
+              <label className='checkboxlabel'>I would like to subscribe to the newsletter.</label>
               </div>
               </div>
               <div id='proceedbutton'>

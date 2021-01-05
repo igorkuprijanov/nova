@@ -4,8 +4,6 @@ import {useGLTFLoader} from 'drei'
 
 
 function Background(){
-    
-    
     const Light = () =>{
     return(
         <ambientLight intensity={0.3}/>
@@ -199,9 +197,6 @@ function Background(){
     
     return(
     <div id='mainbackground'>
-    <div id='mainbackgroundblurry'>
-        
-    </div>
     <Canvas id='canvas'>
        <Light/>
         <Suspense fallback={null}>

@@ -109,9 +109,9 @@ function Product(props){
         <div id='productleft'>
            <div id='lefttext'>
             <div>
-                <h1>{props.name}</h1>
-                <h2>{props.dev}</h2>
-                <h3>{props.composition}</h3>
+                <h1 id='productname'>{props.name}</h1>
+                <h2 id='productdeveloper'>{props.dev}</h2>
+                <h3 id='productcompose'>{props.composition}</h3>
             </div>
             <div id='amountselect'>
                 <button onClick={subtracktAmount}>-</button>

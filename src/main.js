@@ -6,13 +6,16 @@ import image2 from './image2.jpg'
 import image3 from './image3.jpg'
 
 
-function Main() {
+function Main(props) {
     
      useEffect(()=>{
          document.getElementById('facenavigationbutton').style.color = 'black'
          document.getElementById('bodynavigationbutton').style.color = 'black'
          document.getElementById('formnenavigationbutton').style.color = 'black'
          document.getElementById('salenavigationbutton').style.color = 'black'
+         document.getElementById('heart').style.visibility = 'hidden'
+         document.getElementById('cart').style.visibility = 'hidden'
+        
      })
     
     return(

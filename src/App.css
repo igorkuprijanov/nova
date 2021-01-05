@@ -79,11 +79,12 @@
     width: 40%;
 }
 #main1small>h1{
-    font-size: 2.4em;
+    font-size: 3.4em;
     margin-bottom: 2%;
 }
 #main1small>h2{
-    font-size: 2em;
+    font-size: 2.8em;
+    font-weight: 400;
 }
 #main2{
     height: 40vh;
@@ -98,11 +99,13 @@
 #main2small>h3{
     width: 30%;
     text-align: center;
+    font-size: 2.4em;
 }
 #main2small>p{
     width: 30%;
     text-align: center;
     margin-top: 30px;
+    font-size: 1.8em;
 }
 #main3{
     height: 40vh;
@@ -110,16 +113,17 @@
     width: 100%;
 }
 #main3small{
-    margin-top: 3%;
     width: 30%;
     margin-left: 50%;
 }
 #main3small>h3{
     text-align: center;
+    font-size: 2.4em;
 }
 #main3small>p{
     margin-top: 8%;
     text-align: center;
+    font-size: 1.8em;
 }
 #main4{
     height: 40vh;
@@ -132,6 +136,12 @@
     margin-top: 10%;
     width: 40%;
     text-align: center;
+}
+#main4small>h3{
+    font-size: 2.4em;
+}
+#main4small>p{
+    font-size: 1.8em;
 }
 #footer{
     height: 12vh;
@@ -375,8 +385,8 @@
 #canvas{
     filter: blur(4px);
     z-index: -1;
-    
 }
+
 #checkout{
     width: 100vw;
     height: 100vh;
@@ -550,18 +560,459 @@
 }
 #img2{
     position: absolute;
-    width: 25em;
-    height: 30em;
+    width: 50em;
+    height: 35em;
     left: 10%;
     top: 100%;
     filter: brightness(0.8);
-    box-shadow: 0px 20px 13px 0px rgba(0,0,0,0.48)
+    box-shadow: 0px 20px 13px 0px rgba(0,0,0,0.48);
+    margin-top: 100px;
 }
 #img3{
-    width: 35em;
-    height: 20em;
+    width: 50em;
+    height: 30em;
     position: absolute;
     right: 10%;
     top: 158%;
     box-shadow: 0px 20px 13px 0px rgba(0,0,0,0.48)
+}
+
+@media only screen and (max-width: 1440px){
+    #img1{
+        width: 30em;
+        height: 40em;
+    }
+    #img2{
+        width: 30em;
+        height: 25em;
+    }
+    #img3{
+        width: 30em;
+        height: 20em;
+    }
+    #main1small>h1{
+        font-size: 2.8em;
+    }
+    #main1small>h2{
+        font-size: 2.2em;
+    }
+    #main2small>h3{
+        font-size: 2.2em;
+    }
+    #main2small>p{
+        font-size: 1.5em;
+    }
+    #main3small>h3{
+        font-size: 2.2em;
+    }
+    #main3small>p{
+        font-size: 1.5em;
+    }
+    #main4small>h3{
+        font-size: 2.2em;
+    }
+    #main4small>p{
+        font-size: 1.5em;
+    }
+    #footer{
+        height: auto;
+    }
+    #heartbutton{
+        width: 50px;
+    }
+    #likedImage{
+        width: 100px;
+        height: 100px;
+    }
+    #likedTitle{
+        font-size: 24px;
+    }
+    #likedRevmoveBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedAddToCartBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedComponentBtnDiv{
+        width: 130px;
+    }
+    #sciPicture{
+        width: 100px;
+        height: 100px;
+    }
+    #sciTitle{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #sciAmount{
+        margin-bottom: 0px;
+    }
+    #paybutton{
+        width: 9em;
+    }
+    #clearcartbutton{
+        width: 9em;
+    }
+    .checkoutlabel{
+        margin-left: 10px;
+    }
+}
+@media only screen and (max-width: 1024px){
+    #img1{
+        width: 20em;
+        height: 30em;
+        top: 30%;
+    }
+    #img2{
+        width: 20em;
+        height: 15em;
+    }
+    #img3{
+        width: 20em;
+        height: 10em;
+    }
+    #main1small>h1{
+        font-size: 1.8em;
+    }
+    #main1small>h2{
+        font-size: 1.2em;
+    }
+    #main2small>h3{
+        font-size: 1.2em;
+    }
+    #main2small>p{
+        font-size: 1em;
+    }
+    #main3small>h3{
+        font-size: 1.2em;
+        margin-left: 70px;
+    }
+    #main3small>p{
+        font-size: 1em;
+        margin-left: 70px;
+    }
+    #main4small>h3{
+        font-size: 1.2em;
+        margin-right: 50px;
+        margin-top: 180px;
+    }
+    #main4small>p{
+        font-size: 1em;
+        margin-right: 50px;
+    }
+    #footer{
+        height: auto;
+    }
+    #heartbutton{
+        width: 50px;
+    }
+    #likedImage{
+        width: 70px;
+        height: 70px;
+    }
+    #likedTitle{
+        font-size: 16px;
+    }
+    #likedRevmoveBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedAddToCartBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedComponentBtnDiv{
+        width: 130px;
+    }
+    #likedmain{
+        width: 280px;
+        height: 300px;
+    }
+    #shopingcartmain{
+        width: 280px;
+        height: 300px;
+    }
+    #sciPicture{
+        width: 100px;
+        height: 100px;
+    }
+    #sciTitle{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #sciAmount{
+        margin-bottom: 0px;
+    }
+    #paybutton{
+        width: 9em;
+    }
+    #clearcartbutton{
+        width: 9em;
+    }
+    #product{
+        height: 60vh;
+    }
+    #productmenu{
+        font-size: 1em;
+        flex-direction: column;
+        margin-top: 50%;
+        line-height: 10px;
+    }
+    #rightproducts{
+        margin-left: 2em;
+    }
+    .descitem{
+        font-size: 1em;
+    }
+    .descpar{
+        font-size: 0.7em;
+    }
+    #lefttext{
+        margin-top: 42%;
+        width: 90%;
+        margin-left: 5%;
+    }
+    #productname{
+        font-size: 28px;
+    }
+    #productdeveloper{
+        font-size: 22px;
+    }
+    #productcompose{
+        font-size: 16px;
+    }
+    #amountselect{
+        width: 150px;
+        height: 75px;
+        transform: scale(0.7);
+        margin-left: -23px;
+    }
+    #productbuttons{
+        width: 150px;
+    }
+    #shopingcartitem{
+        height: 140px;
+    }
+    #checkoutfirst{
+        height: 70%;
+    }
+    #checkoutform{
+        height: 50%;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    #checkoutrightform{
+        height: 30%;
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #checkoutfirst{
+        flex-direction: column;
+    }
+}
+@media only screen and (max-width: 426px){
+    #navigator{
+        height: 100px;
+    }
+    .linkitem{
+        font-size: 12px;
+    }
+    #navlist{
+        margin-top: 7px;
+        margin-left: -30px;
+    }
+    .react-icons{
+        margin-right: 5px;
+    }
+    #img1{
+        width: 10em;
+        height: 15em;
+        top: 25%;
+    }
+    #img2{
+        width: 20em;
+        height: 15em;
+        top: 65%;
+        left: 13%;
+    }
+    #img3{
+        width: 20em;
+        height: 10em;
+        top: 130%;
+    }
+    #main1small>h1{
+        font-size: 1.2em;
+    }
+    #main1small>h2{
+        font-size: 1em;
+    }
+    #main2small{
+        margin-left: 0px;
+    }
+    #main2small>h3{
+        font-size: 1em;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main2small>p{
+        font-size: 0.8em;
+        width: 300px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main3small{
+        width: auto;
+        margin-left: 0px;
+    }
+    #main3small>h3{
+        font-size: 1em;
+        width: 300px;
+    }
+    #main3small>p{
+        font-size: 0.8em;
+        width: 300px;
+    }
+    #main4small{
+        width: auto;
+        margin-left: 0px;
+        height: 100px;
+        margin-top: 0px;
+    }
+    #main4small>h3{
+        font-size: 1em;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    #main4small>p{
+        font-size: 0.8em;
+        margin-left: auto;
+        margin-right: auto;
+        width: 80%;
+    }
+    #footer{
+        height: auto;
+        margin-top: 0px;
+    }
+    #heartbutton{
+        width: 50px;
+    }
+    #likedImage{
+        width: 70px;
+        height: 70px;
+    }
+    #likedTitle{
+        font-size: 16px;
+    }
+    #likedRevmoveBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedAddToCartBtn{
+        width: 60px;
+        font-size: 10px;
+    }
+    #likedComponentBtnDiv{
+        width: 130px;
+    }
+    #likedmain{
+        width: 280px;
+        height: 300px;
+    }
+    #shopingcartmain{
+        width: 280px;
+        height: 300px;
+    }
+    #sciPicture{
+        width: 100px;
+        height: 100px;
+    }
+    #sciTitle{
+        font-size: 16px;
+        margin-bottom: 0px;
+    }
+    #sciAmount{
+        margin-bottom: 0px;
+    }
+    #paybutton{
+        width: 9em;
+    }
+    #clearcartbutton{
+        width: 9em;
+    }
+    #product{
+        height: 40vh;
+    }
+    #productmenu{
+        font-size: 0.4em;
+        flex-direction: column;
+        margin-top: 50%;
+        line-height: 3px;
+    }
+    #rightproducts{
+        margin-left: 2em;
+    }
+    .descitem{
+        font-size: 0.5em;
+    }
+    .descpar{
+        font-size: 0.4em;
+    }
+    #lefttext{
+        margin-top: 42%;
+        width: 90%;
+        margin-left: 10%;
+    }
+    #productname{
+        font-size: 18px;
+    }
+    #productdeveloper{
+        font-size: 14px;
+    }
+    #productcompose{
+        font-size: 10px;
+    }
+    #amountselect{
+        width: 100px;
+        height: 55px;
+        transform: scale(0.7);
+        margin-left: -23px;
+    }
+    #productbuttons{
+        width: 75px;
+    }
+    .checkoutlabel{
+        font-size: 12px;
+        width: 50%;
+    }
+    .cardsmalllabel{
+        font-size: 12px;
+        width: 50%;
+    }
+    #cardlabel{
+        font-size: 12px;
+    }
+    .checkoutinput{
+        height: 10px;
+    }
+    #checkoutrightform{
+        margin-top: -100px;
+    }
+    #proceed{
+        width: 6em;    
+        font-size: 12px;
+    }
+    #checkouttotal{
+        font-size: 24px;
+    }
+    .checkboxlabel{
+        font-size: 12px;
+    }
+    #checkoutitemscheck{
+        height: 30%;
+    }
 }

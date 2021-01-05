@@ -15,6 +15,8 @@ class Body extends React.Component {
          document.getElementById('bodynavigationbutton').style.color = 'red'
          document.getElementById('formnenavigationbutton').style.color = 'black'
          document.getElementById('salenavigationbutton').style.color = 'black'
+             document.getElementById('heart').style.visibility = 'visible'
+         document.getElementById('cart').style.visibility = 'visible'
      }
     render(){
     return(

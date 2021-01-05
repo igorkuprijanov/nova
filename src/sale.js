@@ -15,6 +15,8 @@ class Sale extends React.Component {
          document.getElementById('bodynavigationbutton').style.color = 'black'
          document.getElementById('formnenavigationbutton').style.color = 'black'
          document.getElementById('salenavigationbutton').style.color = 'red'
+             document.getElementById('heart').style.visibility = 'visible'
+         document.getElementById('cart').style.visibility = 'visible'
      }
      
      

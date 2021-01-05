@@ -15,6 +15,8 @@ class Men extends React.Component {
          document.getElementById('bodynavigationbutton').style.color = 'black'
          document.getElementById('formnenavigationbutton').style.color = 'red'
          document.getElementById('salenavigationbutton').style.color = 'black'
+             document.getElementById('heart').style.visibility = 'visible'
+         document.getElementById('cart').style.visibility = 'visible'
      }
     
     render(){

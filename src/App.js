@@ -31,7 +31,7 @@ class App extends React.Component{
     }
 
     cartClick(){
-        this.setState(state => ({
+            this.setState(state => ({
             shopingCart: !state.shopingCart,
             liked: false,
         }))
@@ -46,7 +46,6 @@ class App extends React.Component{
             liked: !state.liked,
             shopingCart: false
         }))
-        
     }
     
     
@@ -84,10 +83,10 @@ render(){
           
           <div id='icons'>
              <IconContext.Provider value={{ color: "darkgray", className: "react-icons", size: '2.6em' }}>
-                 <div className= "react-icons">
-                  <AiOutlineHeart onClick={this.heartClick} />
-                  </div>
-                  <div className= "react-icons">
+                     <div className= "react-icons" id='heart'>
+                      <AiOutlineHeart onClick={this.heartClick} />
+                      </div>
+                  <div className= "react-icons" id='cart'>
                   <BiShoppingBag onClick={this.cartClick}/>
                   <div id='cartamount'>{this.state.cartAmount}</div>
                   </div>
@@ -113,7 +112,7 @@ render(){
             <Sale updater={this.makeItUpdate} />
           </Route>
            <Route path="/">
-            <Main />
+            <Main updater={this.makeItUpdate}/>
           </Route>
           
         </Switch>

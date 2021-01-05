@@ -14,7 +14,6 @@ function LikedComponent(props){
     }
     
     function sendToCart(){
-        console.log('send it to cart pls')
         for(let i =0; i<inShopingCart.length; i++){
             if(inShopingCart[i].title == props.name){
                alert('its already in the cart')
